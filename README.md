@@ -1,10 +1,9 @@
-# GS-SR: Gaussian Splatting for Surface Reconstruction
+# Gauss Recon – Real Time 3D Surface Reconstruction                                                               
 
 This project aimed to solve the task of surface reconstruction for a large scene.
 
-😜 Just for fun!!!
 
-We have reorganized the 3DGS pipeline according to [sdfstudio](https://github.com/autonomousvision/sdfstudio) to facilitate the introduction of various surface reconstruction methods. Please use the following command to see the currently supported methods.
+I have reorganized the 3DGS pipeline according to [sdfstudio](https://github.com/autonomousvision/sdfstudio) to facilitate the introduction of various surface reconstruction methods. Please use the following command to see the currently supported methods.
 
 ```bash
 
@@ -243,14 +242,3 @@ python train.py octree-2dgs --source-path ./test/scene --output-path ./output
 python train.py octree-pgsr --source-path ./test/scene --output-path ./output
 ```
 
-## Acknowledgements
-
-The project builds on the following works:
-
-- [https://github.com/autonomousvision/sdfstudio](https://github.com/autonomousvision/sdfstudio)
-- [https://github.com/kangpeilun/VastGaussian](https://github.com/kangpeilun/VastGaussian)
-- [https://github.com/graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)
-- [https://github.com/city-super/Scaffold-GS](https://github.com/city-super/Scaffold-GS)
-- [https://github.com/city-super/Octree-GS](https://github.com/city-super/Octree-GS)
-- [https://github.com/hbb1/2d-gaussian-splatting](https://github.com/hbb1/2d-gaussian-splatting)
-- [https://github.com/zju3dv/PGSR](https://github.com/zju3dv/PGSR)
